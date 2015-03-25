@@ -1,0 +1,1 @@
+This is the repository for the course Introduction to Computer Game Development(se347).
