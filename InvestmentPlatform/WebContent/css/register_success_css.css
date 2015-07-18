@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/background_3.png");
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+    background-image: url("../images/background_2.png");
+    border-radius: 20px
+}
+
+.heading{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto 10px;
+}
+
+.left{
+    width: 40%;
+    float: left;
+    padding: 40px 0 0 60px;
+    margin-right: 20px;
+}
+
+.line{
+    float: left;
+}
+
+.register {
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+}
+
+.successTips{
+    color: coral;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    }
+
+
+
+.button_blue{
+    display:inline-block;
+    float:left;
+    height:30px;border-radius:4px;
+    background:#2795dc;border:none;cursor:pointer;
+    border-bottom:3px solid #0078b3;*border-bottom:none;
+    color:#fff;
+    font-size:16px;padding:0 10px;*width:140px;
+    text-align:center;outline:none;font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+}
+
+input.button_blue:hover{
+    background:#0081c1;
+    border-bottom:3px solid #006698;*border-bottom:none;
+    color:#fff;
+    text-decoration:none;
+}
